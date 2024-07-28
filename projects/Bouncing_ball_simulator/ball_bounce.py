@@ -20,6 +20,7 @@ class ball:
         self.velocityY=4
         self.X=random.randint(0,768)
         self.Y=random.randint(0,350)
+        #hello guys
 
     def render_ball(self):
         screen.blit(ball.ball_image, (self.X,self.Y))
